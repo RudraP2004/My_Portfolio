@@ -32,7 +32,7 @@ const Hero = () => {
               </a>
               <a
                 href="#projects"
-                className="px-8 py-3 border-2 border-gray-300 dark:border-gray-700 rounded-full hover:border-blue-600 dark:hover:border-blue-500 transition-colors"
+                className="px-8 py-3 border-2 border-gray-300 dark:border-gray-700 rounded-full hover:border-blue-600 dark:hover:border-blue-500 transition-colors text-blue-500 dark:text-blue-400"
               >
                 View Projects
               </a>

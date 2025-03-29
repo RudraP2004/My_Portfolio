@@ -9,7 +9,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 
 function App() {
-  const [darkMode, setDarkMode] = React.useState(false);
+  const [darkMode, setDarkMode] = React.useState(true); // Default dark mode enabled
   const [menuOpen, setMenuOpen] = React.useState(false);
 
   const toggleDarkMode = () => setDarkMode(!darkMode);

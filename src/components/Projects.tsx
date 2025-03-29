@@ -4,23 +4,23 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'DeployLite',
-    description: 'Next-gen website hosting platform with automated deployment and scaling capabilities.',
+    title: 'AI-ChatBot',
+    description: 'AI-powered chatbot using the Gemini API for seamless interactions.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
     github: '#',
     demo: '#',
-    tags: ['React', 'Node.js', 'AWS'],
+    tags: ['React', 'Node.js', 'Gemini API'],
   },
   {
-    title: 'Mentor Connect',
-    description: 'Smart India Hackathon mentoring system connecting students with industry experts.',
+    title: 'AI-Image Generator',
+    description: 'Image generation using the Flux.1-dev model from Nebius.',
     image: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
     github: '#',
     demo: '#',
-    tags: ['Next.js', 'MongoDB', 'WebRTC'],
+    tags: ['Next.js', 'Flux.1-dev', 'Nebius'],
   },
   {
-    title: 'Gen Script AI',
+    title: 'GenScript AI',
     description: 'Shell script-based AI terminal assistant powered by the Gemini API.',
     image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
     github: '#',
