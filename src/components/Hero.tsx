@@ -38,7 +38,7 @@ const Hero = () => {
               </a>
               {/* Download CV Button */}
               <a
-                href="/MyCV_Rudra.pdf" // <-- Path to your CV file
+                href="/MyCV_Rudra (2).pdf" // <-- Path to your CV file
                 download
                 className="px-8 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition-colors"
               >
