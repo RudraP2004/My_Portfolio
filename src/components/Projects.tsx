@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'AI-ChatBot',
     description: 'AI-powered chatbot using the Gemini API for seamless interactions.',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'chatbot.png',
     github: 'https://github.com/RudraP2004/Rudra_ChatBot',
     demo: '#',
     tags: ['React', 'Node.js', 'Gemini API'],
@@ -34,6 +34,22 @@ const projects = [
     github: '#',
     demo: '#',
     tags: ['React Native', 'Node.js', 'QR Code'],
+  },
+  {
+    title: 'CV Builder',
+    description: 'A modern CV/Resume builder that allows users to create and export professional resumes easily.',
+    image: 'cvpr.png',
+    github: 'https://github.com/RudraP2004/CV-Builder',
+    demo: '#',
+    tags: ['React', 'Tailwind CSS', 'Node.js'],
+  },
+  {
+    title: 'MyPortfolio',
+    description: 'A personal portfolio website showcasing projects, skills, and achievements with a modern responsive design.',
+    image: 'image.png', // add your screenshot in public folder
+    github: 'https://github.com/RudraP2004/MyPortfolio',
+    demo: '#', // put your live portfolio link here if deployed
+    tags: ['React', 'Tailwind CSS', 'Framer Motion'],
   },
 ];
 

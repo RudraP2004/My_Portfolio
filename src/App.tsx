@@ -8,6 +8,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Certification from './components/Certifications';
 
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = React.useState(true);
@@ -20,7 +21,7 @@ const App: React.FC = () => {
 
   const NavLinks: React.FC<{ mobile?: boolean; onClick?: () => void }> = ({ mobile, onClick }) => (
     <>
-      {['about', 'projects', 'skills', 'contact'].map((section) => (
+      {['about', 'projects', 'skills', 'certifications', 'contact'].map((section) => (
         <Link
           key={section}
           to={section}
@@ -76,6 +77,7 @@ const App: React.FC = () => {
         <About />
         <Projects />
         <Skills />
+        <Certification />
         <Contact />
 
         {/* Footer */}
@@ -91,10 +93,10 @@ const App: React.FC = () => {
                   Passionate developer always open to discussing new projects and creative ideas.
                 </p>
                 <div className="flex justify-center md:justify-start space-x-4 mt-4">
-                  <a href="#" className="hover:text-gray-300"><Facebook size={20} /></a>
-                  <a href="#" className="hover:text-gray-300"><Twitter size={20} /></a>
-                  <a href="#" className="hover:text-gray-300"><Instagram size={20} /></a>
-                  <a href="#" className="hover:text-gray-300"><Linkedin size={20} /></a>
+                  <a href="https://www.facebook.com/basudeb.baral.37/" className="hover:text-gray-300"><Facebook size={20} /></a>
+                  <a href="https://x.com/prasadrudra279" className="hover:text-gray-300"><Twitter size={20} /></a>
+                  <a href="https://www.instagram.com/mr_rudra_4u__/" className="hover:text-gray-300"><Instagram size={20} /></a>
+                  <a href="https://www.linkedin.com/in/rudra-prasad-baral-94a9b2290/" className="hover:text-gray-300"><Linkedin size={20} /></a>
                 </div>
               </div>
 
@@ -102,7 +104,7 @@ const App: React.FC = () => {
               <div>
                 <h3 className="font-semibold text-lg mb-3">Company</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="#" className="hover:text-gray-300">My Account</a></li>
+                  <li><a href="https://www.linkedin.com/in/rudra-prasad-baral-94a9b2290/" className="hover:text-gray-300">My Account</a></li>
                   <li><a href="#" className="hover:text-gray-300">Services</a></li>
                   <li><a href="#" className="hover:text-gray-300">Team</a></li>
                   <li><a href="#" className="hover:text-gray-300">Blog</a></li>
@@ -115,7 +117,6 @@ const App: React.FC = () => {
                 <p className="text-sm">Kendrapara, Bhubaneswar, Odisha</p>
                 <p className="text-sm">+91 6370923986</p>
                 <p className="text-sm">prasadrudra279@gmail.com</p>
-                
               </div>
             </div>
 

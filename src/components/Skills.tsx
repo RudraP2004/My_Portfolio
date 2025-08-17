@@ -38,7 +38,10 @@ const skillsData = {
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 bg-gray-900 text-white">
+    <section
+      id="skills"
+      className="py-20 bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300"
+    >
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading */}
         <motion.div
@@ -70,11 +73,11 @@ const Skills = () => {
                 <div key={i} className="mb-6">
                   <div className="flex justify-between mb-2">
                     <span>{skill.name}</span>
-                    <span className="text-blue-400 font-semibold">
+                    <span className="text-blue-500 font-semibold">
                       {skill.level}%
                     </span>
                   </div>
-                  <div className="w-full bg-gray-700 h-2 rounded-full">
+                  <div className="w-full bg-gray-200 dark:bg-gray-700 h-2 rounded-full">
                     <motion.div
                       className="h-2 rounded-full bg-gradient-to-r from-indigo-500 via-blue-500 to-teal-400"
                       initial={{ width: 0 }}
