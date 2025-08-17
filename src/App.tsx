@@ -115,7 +115,7 @@ const App: React.FC = () => {
                 <p className="text-sm">Kendrapara, Bhubaneswar, Odisha</p>
                 <p className="text-sm">+91 6370923986</p>
                 <p className="text-sm">prasadrudra279@gmail.com</p>
-                <p className="text-sm">https://rudra-prasad-self.vercel.app/</p>
+                
               </div>
             </div>
 
