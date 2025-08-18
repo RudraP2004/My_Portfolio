@@ -4,15 +4,15 @@ import { GraduationCap } from "lucide-react"; // modern icons
 
 const qualifications = [
   {
-    title: "Graduation",
+    title: "Graduation -Bachelor of Technology in Computer Science Engineering",
     institute:
-      "Centurion University of Technology and Management, Bhubaneswar",
+      "Centurion University of Technology and Management, Bhubaneswar, Odisha",
     score: "CGPA: 9.25",
     year: "2022 - 2026",
     color: "from-blue-400 to-blue-600",
   },
   {
-    title: "12th Grade",
+    title: "Higher Secondary Education, Science Stream",
     institute:
       "Kendrapara Higher Secondary School, Kendrapara, CHSE Odisha",
     score: "Percentage: 77%",
@@ -20,7 +20,7 @@ const qualifications = [
     color: "from-green-400 to-green-600",
   },
   {
-    title: "10th Grade",
+    title: "Secondary Education, Matriculation",
     institute: "Suderson Nodal High School, Kendrapra, BSE Odisha",
     score: "Percentage: 77%",
     year: "2019 - 2020",
@@ -111,9 +111,11 @@ const About = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-3xl font-bold text-center mb-12">
-            Education Timeline
+          <h3 className="text-4xl font-extrabold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent text-center mb-12">
+            Educational Qualifications
           </h3>
+          
+
 
           <div className="relative border-l-4 border-blue-500 dark:border-blue-400 ml-4">
             {qualifications.map((q, i) => (

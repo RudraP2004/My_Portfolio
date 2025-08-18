@@ -64,8 +64,10 @@ const Projects = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Featured Projects</h2>
-          <div className="w-20 h-1 bg-blue-500 mx-auto mb-8"></div>
+          <h3 className="text-4xl font-extrabold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent text-center mb-12">
+            Some of my Projects
+          </h3>
+          {/* <div className="w-20 h-1 bg-blue-500 mx-auto"></div> */}
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
