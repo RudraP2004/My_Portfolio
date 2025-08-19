@@ -40,7 +40,7 @@ const projects = [
     description: 'A modern CV/Resume builder that allows users to create and export professional resumes easily.',
     image: 'cvpr.png',
     github: 'https://github.com/RudraP2004/CV-Builder',
-    demo: '#',
+    demo: 'https://c-vbuilder-web-rudra.vercel.app/',
     tags: ['React', 'Tailwind CSS', 'Node.js'],
   },
   {
