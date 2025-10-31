@@ -4,12 +4,31 @@ import { motion } from "framer-motion";
 const certifications = [
   {
     year: "2025",
+    title: "SAP Certified Associate - Back-End Developer",
+    issuer: "SAP",
+    description:
+      "Demonstrated proficiency in developing scalable and secure back-end solutions using SAP technologies and best practices.",
+    tags: ["SAP", "Backend Development"],
+    link: "https://www.credly.com/badges/a832ed5f-1204-4957-a63a-caaceba26e0d/public_url", // replace with actual link if available
+  },
+  {
+    year: "2025",
     title: "Basic to Advanced Data Structures and Algorithms",
     issuer: "GeeksforGeeks",
     description:
       'Successfully completed the "Basic to Advanced Data Structures and Algorithms" course by GeeksforGeeks in collaboration with Centurion University.',
     tags: ["DSA", "Java"],
     link: "https://www.geeksforgeeks.org/certificate/9be6682b9f8813f3172a8eacf5db37d9?utm_source=socials&utm_medium=cc_link",
+  },
+   {
+    year: "2025",
+    title:
+      "Oracle Cloud Infrastructure 2025 Generative AI Certified Professional",
+    issuer: "ORACLE",
+    description:
+      "Validated expertise in Generative AI solutions on OCI, including LLM integration and scalable workflows.",
+    tags: ["Cloud", "Generative AI"],
+    link: "http://catalog-education.oracle.com/ords/certview/sharebadge?id=D4F35DDD6A1DC3EE1147EDFD73C0E4742588849BC565787C8AD45C525F758908",
   },
   {
     year: "2024",
